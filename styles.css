@@ -16,20 +16,20 @@ body {
     margin-left:16px;
 }
 
-h3 {
+.nav.nav-name {
+    color: #46260e;
+}
+
+.nav-name a {
     font-weight:1000;
     font-size:30px;
     padding:16px;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
-    color: #46260e;
-}
-
-h3 a {
     text-decoration: none;
     color: #46260e;
 }
 
-img {
+.nav img {
     cursor:pointer;
     border-radius: 50%;
     display:block;
@@ -48,10 +48,52 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color:#e3c35b;
+    color:#46260e;
     font-size: 20px;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
     font-weight:1000;
     letter-spacing: 1px;
     
+}
+
+.page-content {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height:600px;
+    background-image:url('./title-vid.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+#title-page {
+    display:flex;
+    flex-direction: column;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color:#46260e;
+    font-weight: 1000;
+    flex-wrap: wrap;
+}
+
+.page-content h1 {
+    margin-bottom: 5px;
+    font-size: 30px;
+    color:#fbebce;
+    font-weight: 1000;
+}
+
+.page-content h3 {
+    text-indent: 5%;
+    margin-top:0;
+    color:#fbebce;
+    font-weight: 1000;
+}
+
+.page-content img {
+    margin:auto;
+    padding-left:16px;
+    display:flex;
+    border-radius: 10%;
 }
