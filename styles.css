@@ -1,0 +1,57 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.nav {
+    display:flex;
+    background-image: url(star-background.png);
+    align-items: center;
+    justify-content: flex-end;
+    max-height:100px;
+}
+
+#name-icon {
+    margin:auto;
+    margin-left:16px;
+}
+
+h3 {
+    font-weight:1000;
+    font-size:30px;
+    padding:16px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    color: #46260e;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #46260e;
+}
+
+img {
+    cursor:pointer;
+    border-radius: 50%;
+    display:block;
+    box-sizing: border-box;
+    background-color: #46260e;
+    border: 2px solid #46260e;
+
+}
+
+ul li {
+    display:inline;
+    list-style: none;
+    padding: 16px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color:#e3c35b;
+    font-size: 20px;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-weight:1000;
+    letter-spacing: 1px;
+    
+}
